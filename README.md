@@ -22,7 +22,7 @@ touch Dockerfile
 ```
 Contenu du `Dockerfile` :
 ```dockerfile
-FROM eclipse-temurin:21-jre-jammy
+FROM eclipse-temurin:21
 VOLUME /tmp
 EXPOSE 8080
 ADD ./build/libs/RentalService-0.0.1-SNAPSHOT.jar app.jar
